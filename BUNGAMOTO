@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BUNGAMOTO TECH | Technology Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>BUNGAMOTO GROUP</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Your Partner in Technology Innovation</h2>
+      <p>Full Stack Development, Cybersecurity, AI, IOT & More</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm a recent IT graduate venturing boldly into the world of technology. As a full stack developer with interests in cybersecurity and AI, I founded <strong>BUNGAMOTO GROUP</strong> to help businesses, schools, and organizations harness the power of technology for growth and transformation.
+      </p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul>
+        <li><strong>IOT Solutions</strong>: Smart device integration for homes, schools, and enterprises.</li>
+        <li><strong>Systems Design</strong>: Custom software, automation, and architecture design.</li>
+        <li><strong>School Systems</strong>: Responsive school websites, portals, and e-learning platforms.</li>
+        <li><strong>Company/Organization Websites</strong>: Modern, mobile-friendly business websites.</li>
+        <li><strong>Cybersecurity</strong>: Security audits, consulting, and implementation.</li>
+        <li><strong>Artificial Intelligence</strong>: AI-enabled apps and data analytics.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="How can we help you?" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p>Or email us directly at <a href="mailto:info@bungamotogroup.com">info@bungamotogroup.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 BUNGAMOTO GROUP. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
